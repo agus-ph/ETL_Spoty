@@ -16,7 +16,6 @@ coin_list = [
     "litecoin",
     "cardano",
     "dogecoin",
-    "bitbay",
     "ripple",
     "monero",
     "binancecoin",
