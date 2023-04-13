@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from pycoingecko import CoinGeckoAPI
 from datetime import datetime
 import pandas as pd
@@ -127,4 +126,4 @@ for currencie in coin_list:
     df_list.append(cripto_df)
 
 final_df = pd.concat(df_list)
->>>>>>> 53742c888e717c6048361f4c258d9f6d8ba9b428
+
