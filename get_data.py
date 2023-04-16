@@ -14,12 +14,13 @@ coin_list = [
     "bitcoin",
     "ethereum",
     "litecoin",
-    "cardano",
-    "dogecoin",
-    "ripple",
     "monero",
-    "binancecoin",
-    "stellar",
+    "pax-gold",
+    "maker",
+    "bnb-bank",
+    "bitcoin-cash",
+    "quant-network",
+    "gmx",
 ]
 
 
@@ -61,4 +62,6 @@ for currencie in coin_list:
     df_list.append(cripto_df)
 
 final_df = pd.concat(df_list)
+
+
 
