@@ -9,7 +9,7 @@ from dash.dependencies import Input, Output, State
 # -------------------------- Create Dash App ----------------------------------
 
 app = dash.Dash(__name__)
-# server = app.server
+server = app.server
 
 df = final_df
 
